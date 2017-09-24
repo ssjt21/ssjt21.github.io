@@ -1,12 +1,12 @@
 # Basic
-title: 潘柏信
-subtitle: 个人站
+title: 随时静听
+subtitle: SSJTA21 FOR ME
 description: 欢迎来到我的个人站~
 # 头像里面的标题
-avatarTitle: leopardpan
+avatarTitle: 网络完全
 # 头像里面的描述
-avatarDesc: iOS / 机器学习
-url: "http://baixin.io"
+avatarDesc: PYTHON / web安全
+url: "http://ssjt21.github.io"
 
 # Comment
 comment:
@@ -15,20 +15,20 @@ comment:
 
 # Social
 social:
-    weibo: 5366874726 
-    github: leopardpan
+    weibo: d1314ziting@163.com
+    github: ssjt21
     # twitter: 
-    mail: leopardpan@icloud.com
+    mail: d1314ziting@163.com
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: 8ba1c6be0953b6f9c2ba38e57f615421  
+    id:  
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
 ga:
-    id: UA-84134159-3   
+    id:   
     host: auto  
 
 
