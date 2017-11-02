@@ -8,7 +8,7 @@ title: 关于我
 bulding 
 <p>
 
-Email:d1314ziting@163.com
+Email:<d1314ziting@163.com>
 <p>
 
 所在公司
