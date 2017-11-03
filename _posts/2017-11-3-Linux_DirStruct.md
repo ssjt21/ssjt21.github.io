@@ -29,6 +29,7 @@ tag: Linux
 ├── opt     附加的应用程序包
 
 ├── proc    系统内存的映射目录，提供内核与进程信息
+
 ├── root    root 用户主目录
 
 ├── sbin    存放系统二进制文件
@@ -54,4 +55,4 @@ tag: Linux
 
 <br>
 
-转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](http://ssjt21.io/2017/11/Linux_DirStruct/)
+转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](http://ssjt21.github.io/2017/11/Linux_DirStruct/)
