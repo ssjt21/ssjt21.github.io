@@ -6,7 +6,7 @@ description: "Excle 中 VLOOKUP函数的使用"
 tag: Excle
 ---
 
-在这里讲解一下Excle中_VLOOKUP_函数的使用，从而提工作表格中的数据处理效率。
+在这里讲解一下Excle中__VLOOKUP__函数的使用，从而提工作表格中的数据处理效率。
 
 在讲解之前需要说一些Excel中相数据区域的 ___相对引用___ 和 ___绝对引用___。
 
