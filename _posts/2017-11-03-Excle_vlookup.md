@@ -10,7 +10,7 @@ tag: Excle
 
 在讲解之前需要说一些Excel中相数据区域的 ___相对引用___ 和 ___绝对引用___。
 
-<img src="/images/posts/Excle/VLOOKUP.jpg" height="150" width="600">
+<img src="/images/posts/Excle/VLOOKUP.jpg" height="200" width="800">
 
 ### 相对引用
 
