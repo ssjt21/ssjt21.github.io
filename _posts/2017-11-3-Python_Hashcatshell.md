@@ -3,7 +3,7 @@ layout: post
 title: "Python调用Hashcat跑主机密码文件"
 date: 2017-11-3 15:13:06 
 description: "工作中为了解决繁琐的重复性工作提高工作效率，写了个调用hashcat批量跑主机密码的脚本"
-tag: Excle
+tag: Python
 ---
 
 Python 调用Hashcat64.exe 来批量跑主机密码文件。
