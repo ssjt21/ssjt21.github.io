@@ -10,7 +10,7 @@ tag: Excel
 
 ### 开始 --> 条件格式 --> 管理样式 --> 新建样式 
 
-* <img src="/images/posts/Excle/ConditionFormat.gif" height="350" width="850">
+* <img src="/images/posts/Excle/ConditionFormat.gif" height="400" width="850">
 
 
 推荐阅读：
