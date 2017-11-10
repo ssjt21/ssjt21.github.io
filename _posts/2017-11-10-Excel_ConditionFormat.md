@@ -9,7 +9,8 @@ tag: Excel
 通常我们可能出现类似于等级的一个分类，需要将其背景颜色根据等级的不同显示不同的颜色。下面有一个案例供大家学习：
 
 ### 开始 --> 条件格式 --> 管理样式 --> 新建样式 
-<img src="/images/posts/Excle/ConditionFormat.gif" height="600" width="1000">
+
+* <img src="/images/posts/Excle/ConditionFormat.gif" height="600" width="1000">
 
 
 推荐阅读：
