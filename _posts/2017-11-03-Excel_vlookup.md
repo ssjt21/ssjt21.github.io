@@ -2,11 +2,11 @@
 layout: post
 title: "Excle VLOOKUP函数"
 date: 2017-11-3 15:13:06 
-description: "Excle 中 VLOOKUP函数的使用"
-tag: Excle
+description: "Excel 中 VLOOKUP函数的使用"
+tag: Excel
 ---
 
-在这里讲解一下Excle中__VLOOKUP__函数的使用，从而提工作表格中的数据处理效率。
+在这里讲解一下Excel中__VLOOKUP__函数的使用，从而提工作表格中的数据处理效率。
 
 在讲解之前需要说一些Excel中相数据区域的 ___相对引用___ 和 ___绝对引用___。
 
@@ -29,18 +29,10 @@ tag: Excle
 4. 查找模式：0或1,0表示精确查找,1表示模糊查找,一般都是用0
     
 
-
-
-
-
-
-
 推荐阅读：
 
-- Building
-
-
+- [Excel 根据表格内容修改格式](http://ssjt21.github.io/2017/11/Excel_ConditionFormat/)
 
 <br>
 
-转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](http://ssjt21.github.io/2017/11/Excle_vlookup/)
+转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](http://ssjt21.github.io/2017/11/Excelvlookup/)
