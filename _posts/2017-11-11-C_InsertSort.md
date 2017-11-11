@@ -14,7 +14,7 @@ tag: C
 - 当找到比他比他小的数字后,将其数字插入到比他小的数字的后面即可
 - 重复以上步骤就可进行下一个数字的的排序找到对应的合适位置
 - 动图展示:
-<img src="/images/posts/C/InsertSort.gif" height="300" width="850">
+<img src="/images/posts/C/InsertSort.gif" height="400" width="850">
 
 ### 代码部分(C/C++实现)
 
