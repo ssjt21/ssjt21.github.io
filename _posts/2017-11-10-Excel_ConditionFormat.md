@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Excle 根据表格内容修改格式"
+title: "Excel 根据表格内容修改格式"
 date: 2017-11-10 15:13:06 
 description: "Excel 中 条件格式的使用"
 tag: Excel
