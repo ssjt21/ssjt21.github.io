@@ -15,7 +15,7 @@ tag: Excel
 
 ### MOD(m,n) m对n求余数
 - 数m对n求余数,余数的符号和n相同
-- eg: MID(3,-2)的结果是 -1
+- eg: MOD(3,-2)的结果是 -1
 
 ### TEXT(value,format\_txt)将数值转换成指定的格式 
 
