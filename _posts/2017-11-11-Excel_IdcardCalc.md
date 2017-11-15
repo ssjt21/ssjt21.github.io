@@ -98,7 +98,7 @@ tag: Excel
 |=DATEDIF(C2,TODAY(),"Y")|计算年龄|
 
 
-* <img src="/images/posts/Excle/Excel_DATADIF_IF_TEXT.gif" height="400" width="800">
+<img src="/images/posts/Excle/Excel_DATADIF_IF_TEXT.gif" height="400" width="800">
 
 
 推荐阅读：
