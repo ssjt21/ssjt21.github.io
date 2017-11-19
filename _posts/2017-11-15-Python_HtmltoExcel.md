@@ -122,6 +122,8 @@ if __name__=="__main__":
 
 - [Python调用Hashcat跑主机密码文件](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
 
+- [Python 绿盟HTML报告转Excel](http://ssjt21.github.io/2017/11/Python_NSFOCUS_To_Excel/)
+
 - [Excel VLOOKUP函数](http://ssjt21.github.io/2017/11/Excel_vlookup/)
 
 - [Excel 根据表格内容修改格式](http://ssjt21.github.io/2017/11/Excel_ConditionFormat/)
