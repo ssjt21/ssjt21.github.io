@@ -120,7 +120,7 @@ if __name__=="__main__":
 
 ### 使用说明
 
-- 请根据脚本导入的模块，自行安装响应的模块
+- 请根据脚本导入的模块，自行安装对应的模块
 
 - 绿盟的HTML报告中inxex.html 路径问题请参考函数def Get_Html_PAHT_list(path=os.getcwd())
 
