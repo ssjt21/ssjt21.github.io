@@ -126,7 +126,8 @@ if __name__=="__main__":
 
 - 脚本可批量处理，请指定路径
 
-- 提供(.exe)[报告HTML转Excel(.exe下载)](http://pan.baidu.com/s/1bpIuES3) 密码 **2vuk**
+- 提供(.exe)[报告HTML转Excel(.exe下载)](http://pan.baidu.com/s/1c2tqz4W ) 密码：cnsp
+
 
 推荐阅读：
 
