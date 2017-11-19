@@ -133,8 +133,8 @@ if __name__=="__main__":
 
 - [Python调用Hashcat跑主机密码文件](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
 
-- [Python 天融信报告HTML转Excel](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
+- [Python 天融信报告HTML转Excel](http://ssjt21.github.io/2017/11/Python_HtmltoExcel/)
 
 <br>
 
-转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](http://ssjt21.github.io/2017/11/Python_NSFOCUS_To_Excel/)
+转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](https://ssjt21.github.io/2017/11/Pyton_NSFOCUS_To_Excel//)
