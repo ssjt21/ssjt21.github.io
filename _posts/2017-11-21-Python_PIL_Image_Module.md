@@ -57,7 +57,7 @@ print im.width,img.height  #输出的图片的宽和高
 
 - alpha_composite(img1,img2),img1和img2的**mode**必须是**'RGBA'**,并且**size**要相同
 
-- blend(img1,img2,alpha),对两张的图片**mode**没有做限制,但是**size**必须相同,融合公式为：`outImg=img1\*(1.0-alpha)+img2\*alpha`
+- blend(img1,img2,alpha),对两张的图片**mode**没有做限制,但是**size**必须相同,融合公式为：`outImg=img1*(1.0-alpha)+img2*alpha`
 
 ```Python
 from PIL import Image
