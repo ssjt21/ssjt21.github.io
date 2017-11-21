@@ -188,7 +188,7 @@ code {
   border: 1px solid #c9e1f6;
   border-radius: 3px;
   font-family: Courier New,Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: .9em;
+  font-size: 1.0em;
   vertical-align: bottom;
   word-wrap: break-word; }
 
@@ -199,7 +199,7 @@ pre {
   border: 1px solid #c9e1f6;
   border-radius: 3px;
   font-family: Courier New,Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: 1.4em;
+  font-size: 1.0em;
   font-weight: normal;
   line-height: 1.4em;
   overflow: scroll; }
@@ -1156,7 +1156,7 @@ input[type="tel"]:-ms-input-placeholder {
     font-size: 1.6em;
     line-height: 1.0em;
     letter-spacing: 0;
-    font-weight: 500;
+    font-weight: bold;
   }
  .panel-title {
     margin-bottom: .1em;
