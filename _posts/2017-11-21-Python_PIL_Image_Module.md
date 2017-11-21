@@ -68,15 +68,15 @@ img3.show()
 ```
 *图片1:demo.jpg*
 
-<img src="/images/posts/Python/PIL/demo.jpg" height="600" width="800">
+<img src="/images/posts/Python/PIL/demo.jpg" height="500" width="800">
 
 *图片2:demo2.jpg*
 
-<img src="/images/posts/Python/PIL/demo.jpg" height="600" width="800">
+<img src="/images/posts/Python/PIL/demo.jpg" height="500" width="800">
 
 *合成图片3*
 
-<img src="/images/posts/Python/PIL/blend.jpg" height="600" width="800">
+<img src="/images/posts/Python/PIL/blend.jpg" height="500" width="800">
 
 
 ### 创建缩略图 - thumbnail()
