@@ -188,7 +188,7 @@ code {
   border: 1px solid #c9e1f6;
   border-radius: 3px;
   font-family: Courier New,Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: 1.6em;
+  font-size: 1.3em;
   vertical-align: bottom;
   word-wrap: break-word; }
 
@@ -199,7 +199,7 @@ pre {
   border: 1px solid #c9e1f6;
   border-radius: 3px;
   font-family: Courier New,Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-  font-size: 1.6em;
+  font-size: 1.3em;
   font-weight: normal;
   line-height: 1.3em;
   overflow: scroll; }
