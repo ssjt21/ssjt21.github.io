@@ -1156,6 +1156,7 @@ input[type="tel"]:-ms-input-placeholder {
     font-size: 1.6em;
     line-height: 1.0em;
     letter-spacing: 0;
+    font-weight: 500;
   }
  .panel-title {
     margin-bottom: .1em;
