@@ -20,7 +20,7 @@ tag: Python
 ```Python
 from PIL import Image
 im=open('demo.jpg')
-im.rotate(45).show()
+im.rotate(45).show()    #图片旋转45°并显示
 ```
 
 ### 获取图片的信息 
@@ -68,15 +68,15 @@ img3.show()
 ```
 *图片1:demo.jpg*
 
-<img src="/images/posts/Python/PIL/demo.jpg" height="700" width="810">
+<img src="/images/posts/Python/PIL/demo.jpg" height="600" width="800">
 
 *图片2:demo2.jpg*
 
-<img src="/images/posts/Python/PIL/demo.jpg" height="700" width="810">
+<img src="/images/posts/Python/PIL/demo.jpg" height="600" width="800">
 
 *合成图片3*
 
-<img src="/images/posts/Python/PIL/blend.jpg" height="700" width="810">
+<img src="/images/posts/Python/PIL/blend.jpg" height="600" width="800">
 
 
 ### 创建缩略图 - thumbnail()
