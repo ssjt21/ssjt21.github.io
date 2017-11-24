@@ -67,7 +67,7 @@ cnv.bind("<B1-Motion>",paint)
 root.mainloop()
 ```
 
-<img src="/images/posts/Python/Tkinter/Canvas/Tkinter_Canvas_1.jpg" width="500" height="400">
+<img src="/images/posts/Python/Tkinter/Canvas/Tkinter_Canvas_1.jpg" >
 
 
 
