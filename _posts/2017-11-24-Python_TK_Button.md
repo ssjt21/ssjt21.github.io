@@ -111,7 +111,7 @@ btn9.pack()
 
 root.mainloop()
 ```
-<img src="images/Python/Tkinter/Button/Tkinter_Button_1.jpg" width="600" height="500">
+<img src="/images/posts/Python/Tkinter/Button/Tkinter_Button_1.jpg" width="600" height="500">
 
 
 
