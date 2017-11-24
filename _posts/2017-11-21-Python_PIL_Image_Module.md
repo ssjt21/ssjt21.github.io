@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Python PIL Image Module"
+title: "Python PIL Image类使用"
 date: 2017-11-21 13:13:06 
 description: "Python PIL 图片处理 Image类"
 tag: Python
