@@ -49,7 +49,7 @@ print im.mode   #输出图片使用的像素模式
 
 print im.size   #输出图片的宽和高(width,height)
 
-print im.width,img.height  #输出的图片的宽和高
+print im.width,im.height  #输出的图片的宽和高
 
 ```
 
