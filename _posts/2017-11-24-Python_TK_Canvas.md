@@ -2,7 +2,7 @@
 layout: post
 title: "Tkinter Canvas控件使用-3"
 date: 2017-11-24 13:13:06 
-description: "Python Tkinter Canvas按钮的使用例子"
+description: "Python Tkinter Canvas画布的使用例子"
 tag: Tkinter
 ---
 
@@ -125,6 +125,8 @@ root.mainloop()
 推荐阅读：
 
 - [Tkinter Button控件使用-2](https://ssjt21.github.io/2017/11/Python_TK_Button/)
+
+- [Tkinter Grid网格布局使用-4](https://ssjt21.github.io/2017/11/Python_TK_Grid/)
 
 - [Python PIL Image类使用](http://ssjt21.github.io/2017/11/Python_PIL_Image_Module/)
 
