@@ -113,7 +113,7 @@ print cnv.find_withtag('r4')
 
 # rt上一个对象添加tag 'r6'
 cnv.addtag_above('r6',rt)
-# rt下一个对象添加tag 'r6'
+# rt下一个对象添加tag 'r7'
 cnv.addtag_below('r7',rt)
 
 root.mainloop()
