@@ -41,8 +41,9 @@ lab_5.grid(row=2,column=2,columnspan=2,rowspan=2,sticky=W+E+N+S,padx=5,pady=5)
 # 指定最小的列宽
 root.columnconfigure(0,minsize = 100)
 root.mainloop()
-
 ```
+<img src="/images/posts/Python/Tkinter/Grid/Tkinter_Grid_1.jpg" >
+
 
 推荐阅读：
 
