@@ -111,8 +111,8 @@ hydra -L 用户名文件 -P 密码文件 IP 协议
 
 ### 其他协议的破解
 
-> 请使用hydra –U PROTOCOL 来查看使用的例子,比如想查看http-post-form破解：
-hydra –U http-post-hydra
+`请使用hydra –U PROTOCOL 来查看使用的例子,比如想查看http-post-form破解：
+hydra –U http-post-hydra`
 
 ```JAVA
 PROTOCOLS(支持的协议类型):
