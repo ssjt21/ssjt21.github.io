@@ -112,7 +112,7 @@ Kali中无需下载直接使用
 
 #查询SQL Server 对应得版本加密参数
 ```
-> `--help`
+### `--help`
 
 ```C
 John the Ripper password cracker, version 1.8.0.6-jumbo-1-bleeding [linux-x86-64-avx]
