@@ -114,7 +114,8 @@ hydra -L 用户名文件 -P 密码文件 IP 协议
 > 请使用hydra –U PROTOCOL 来查看使用的例子,比如想查看http-post-form破解：
 hydra –U http-post-hydra
 
-> PROTOCOLS(支持的协议类型):
+```JAVA
+PROTOCOLS(支持的协议类型):
 Asterisk, AFP, Cisco AAA, Cisco auth, Cisco enable, CVS, Firebird, FTP,
 HTTP-FORM-GET, HTTP-FORM-POST, HTTP-GET, HTTP-HEAD, HTTP-POST, HTTP-PROXY,
 HTTPS-FORM-GET, HTTPS-FORM-POST, HTTPS-GET, HTTPS-HEAD, HTTPS-POST,
@@ -123,6 +124,7 @@ Oracle SID, Oracle, PC-Anywhere, PCNFS, POP3, POSTGRES, RDP, Rexec, Rlogin,
 Rsh, RTSP, SAP/R3, SIP, SMB, SMTP, SMTP Enum, SNMP v1+v2+v3, SOCKS5,
 SSH (v1 and v2), SSHKEY, Subversion, Teamspeak (TS2), Telnet, VMware-Auth,
 VNC and XMPP.
+```
 
 
 推荐阅读：
