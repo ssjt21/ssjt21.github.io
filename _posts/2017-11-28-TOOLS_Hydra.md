@@ -1,14 +1,14 @@
 --- 
 layout: post
 title: "KALI Hydra破解工具的使用"
-date: 2017-11-27 10:13:06 
+date: 2017-11-28 9:34:06 
 description: "KALI Hydra破解工具的使用"
 tag: Tools
 ---
 
 ### 介绍
 
-&nbsp;&nbsp;&nbsp;&nbsp;hydra是一种猜测和破解密码的工具，支持多种网络协议，如HTTP、FTP、POP3、SMB等。Hydra依靠提供的用户名和秘密，并尝试登陆网络服务器，默认行数为16.一旦登陆成功，将会保存相关的记录。
+&nbsp;&nbsp;&nbsp;&nbsp;hydra是一种猜测和破解密码的工具，支持多种网络协议，如HTTP、FTP、POP3、SMB等。Hydra依靠提供的用户名和密码，并尝试登陆网络服务器，默认行数为16.一旦登陆成功，将会保存相关的记录。
 
 `说明：使用的情况是远程非本地`
 
@@ -18,7 +18,6 @@ tag: Tools
 链接：http://pan.baidu.com/s/1ge7NdoZ 密码：atob
 
 `Linux:`
-
  `su apt-get install hydra 
  或者 su yum install –y hydra`
 
