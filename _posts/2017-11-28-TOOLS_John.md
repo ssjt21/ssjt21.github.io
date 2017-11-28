@@ -36,9 +36,9 @@ Kali中无需下载直接使用
 
 单一模式(single) --> 字典模式(wordlist) --> 递增模式(incremental)  --> 默认模式
 
-### 字典模式 --worldlist
+### 字典模式 - -worldlist
 
-```JAVA
+```C
 #命令方式：john --wordlist=wordlst.txt  pass_shadow.txt
 #wordlst.txt:是字典文件，每个密码独占一行
 #pass_shadow.txt:密码文件，需要root用户下使用命令unshadow /etc/passwd /etc/shadow > pass_shadow.txt 来合并passwd文件和shadow文件到一个文件中
@@ -56,100 +56,100 @@ Kali中无需下载直接使用
 #john --users=root,webadmin pass_shadow.txt --show
 ```
 
-### 单一模式 --single
-```javascript
-命令方式： john --single  pass_shadow.txt
-pass_shadow.txt:从这里就不多说了，上面解释过了
-破解指定的用户的密码：
-john --single  --users=root,webadmin  pass_shadow.txt
-
-破解指定的加密方式的密码：
-john --single  --format=aix-ssha512  pass_shadow.txt
-
-// 查看 --format 可以指定的加密类型
-john --list=formats
+### 单一模式 - -single
+```C
+#命令方式： john --single  pass_shadow.txt
+#pass_shadow.txt:从这里就不多说了，上面解释过了
+#破解指定的用户的密码：
+#john --single  --users=root,webadmin  pass_shadow.txt
+#
+#破解指定的加密方式的密码：
+#john --single  --format=aix-ssha512  pass_shadow.txt
+#
+#// 查看 --format 可以指定的加密类型
+#john --list=formats
 
 ```
 
 ### 递增模式
 
 ```javascript
-注意：一般不适用，太过强大需要很长得时间，你等不起
-全部密码破解模式：
-john --incremental pass_shadow.txt
-
-使用数字：
-john –incremental:digits pass_shadow.txt
-
-数字6位：
-john –incremental:digits 6 pass_shadow.txt
+#注意：一般不适用，太过强大需要很长得时间，你等不起
+#全部密码破解模式：
+#john --incremental pass_shadow.txt
+#
+#使用数字：
+#john –incremental:digits pass_shadow.txt
+#
+#数字6位：
+#john –incremental:digits 6 pass_shadow.txt
 ```
 
 ### 扩展模式
 
-```javascript
-过滤掉字典中出现得数字：
-john --external=Filter_digits --wordlist=wordlst.lst pass_shadow.txt
- 
-更多详细得信息请见：more /etc/john/john.conf
-//查看external列表
-john --list=external
+```C
+#过滤掉字典中出现得数字：
+#john --external=Filter_digits --wordlist=wordlst.lst pass_shadow.txt
+# 
+#更多详细得信息请见：more /etc/john/john.conf
+#查看external列表
+#john --list=external
 ```
 
 ### 其他使用方式
 
-```JAVASCRIPT
-比如我们想破解 SQL Server2005 数据库得密码
-第一种方式：
-自动识别加密方式
-john --wordlist=wordlst.lst ssql.pass
-第二种：
-list帮助：
-john --list=help
+```C
+#比如我们想破解 SQL Server2005 数据库得密码
+#第一种方式：
+#自动识别加密方式
+#john --wordlist=wordlst.lst ssql.pass
+#第二种：
+#list帮助：
+#john --list=help
+#
+#查看所有得加密方式：
+#john --list=formats
 
-查看所有得加密方式：
-john --list=formats
-
-查询SQL Server 对应得版本加密参数
+#查询SQL Server 对应得版本加密参数
 ```
 > `--help`
 
-`
+```C
 John the Ripper password cracker, version 1.8.0.6-jumbo-1-bleeding [linux-x86-64-avx]
 Copyright (c) 1996-2015 by Solar Designer and others
 Homepage: http://www.openwall.com/john/
 
-1.	Usage: john [OPTIONS] [PASSWORD-FILES]
-2.	--single[=SECTION]        "single crack" mode
-3.	--wordlist[=FILE] --stdin wordlist mode, read words from FILE or stdin
-4.	--pipe  like --stdin, but bulk reads, and allows rules
-5.	--loopback[=FILE]         like --wordlist, but fetch words from a .pot file
-6.	--dupe-suppression        suppress all dupes in wordlist (and force preload)
-7.	--prince[=FILE]           PRINCE mode, read words from FILE
-8.	--encoding=NAME           input encoding (eg. UTF-8, ISO-8859-1). See alsodoc/ENCODING and --list=hidden-options.
-10.	--rules[=SECTION]         enable word mangling rules for wordlist modes
-11.	--incremental[=MODE]      "incremental" mode [using section MODE]
-12.	--mask=MASK               mask mode using MASK
-13.	--markov[=OPTIONS]        "Markov" mode (see doc/MARKOV)
-14.	--external=MODE           external mode or word filter
-15.	--stdout[=LENGTH]         just output candidate passwords [cut at LENGTH]
-16.	--restore[=NAME]          restore an interrupted session [called NAME]
-17.	--session=NAME            give a new session the NAME
-18.	--status[=NAME]           print status of a session [called NAME]
-19.	--make-charset=FILE       make a charset file. It will be overwritten
-20.	--show[=LEFT]             show cracked passwords [if =LEFT, then uncracked]
-21.	--test[=TIME]             run tests and benchmarks for TIME seconds each
-22.	--users=[-]LOGIN|UID[,..] [do not] load this (these) user(s) only
-23.	--groups=[-]GID[,..]      load users [not] of this (these) group(s) only
-24.	--shells=[-]SHELL[,..]    load users with[out] this (these) shell(s) only
-25.	--salts=[-]COUNT[:MAX]    load salts with[out] COUNT [to MAX] hashes
-26.	--save-memory=LEVEL       enable memory saving, at LEVEL 1..3
-27.	--node=MIN[-MAX]/TOTAL    this node's number range out of TOTAL count
-28.	--fork=N                  fork N processes
-29.	--pot=NAME                pot file to use
-30.	--list=WHAT               list capabilities, see --list=help or doc/OPTIONS
-31.	--format=NAME             force hash of type NAME. The supported formats        can be seen with --list=formats and --list=subformats
-`
+#1.	Usage: john [OPTIONS] [PASSWORD-FILES]
+#2.	--single[=SECTION]        "single crack" mode
+#3.	--wordlist[=FILE] --stdin wordlist mode, read words from FILE or stdin
+#4.	--pipe  like --stdin, but bulk reads, and allows rules
+#5.	--loopback[=FILE]         like --wordlist, but fetch words from a .pot file
+#6.	--dupe-suppression        suppress all dupes in wordlist (and force preload)
+#7.	--prince[=FILE]           PRINCE mode, read words from FILE
+#8.	--encoding=NAME           input encoding (eg. UTF-8, ISO-8859-1). See alsodoc/ENCODING and --list=hidden-options.
+#9.	--rules[=SECTION]         enable word mangling rules for wordlist modes
+#10.	--incremental[=MODE]      "incremental" mode [using section MODE]
+#11.	--mask=MASK               mask mode using MASK
+#12.	--markov[=OPTIONS]        "Markov" mode (see doc/MARKOV)
+#13.	--external=MODE           external mode or word filter
+#14.	--stdout[=LENGTH]         just output candidate passwords [cut at LENGTH]
+#15.	--restore[=NAME]          restore an interrupted session [called NAME]
+#16.	--session=NAME            give a new session the NAME
+#17.	--status[=NAME]           print status of a session [called NAME]
+#18.	--make-charset=FILE       make a charset file. It will be overwritten
+#19.	--show[=LEFT]             show cracked passwords [if =LEFT, then uncracked]
+#20.	--test[=TIME]             run tests and benchmarks for TIME seconds each
+#21.	--users=[-]LOGIN|UID[,..] [do not] load this (these) user(s) only
+#22.	--groups=[-]GID[,..]      load users [not] of this (these) group(s) only
+#23.	--shells=[-]SHELL[,..]    load users with[out] this (these) shell(s) only
+#24.	--salts=[-]COUNT[:MAX]    load salts with[out] COUNT [to MAX] hashes
+#25.	--save-memory=LEVEL       enable memory saving, at LEVEL 1..3
+#26.	--node=MIN[-MAX]/TOTAL    this node's number range out of TOTAL count
+#27.	--fork=N                  fork N processes
+#28.	--pot=NAME                pot file to use
+#29.	--list=WHAT               list capabilities, see --list=help or doc/OPTIONS
+#30.	--format=NAME             force hash of type NAME. The supported formats        can be #31     seen with --list=formats and --list=subformats
+```
 
 
 推荐阅读：
