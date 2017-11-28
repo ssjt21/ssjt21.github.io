@@ -129,9 +129,9 @@ VNC and XMPP.
 
 推荐阅读：
 
-- [Tkinter Button控件使用-2](https://ssjt21.github.io/2017/11/Python_TK_Button/)
+- [KALI John破解工具的使用](https://ssjt21.github.io/2017/11/TOOLS_John/)
 
-- [Tkinter Canvas控件使用-3](https://ssjt21.github.io/2017/11/Python_TK_Canvas/)
+- [Tkinter Button控件使用-2](https://ssjt21.github.io/2017/11/Python_TK_Button/)
 
 - [Python PIL Image类使用](http://ssjt21.github.io/2017/11/Python_PIL_Image_Module/)
 
