@@ -54,7 +54,7 @@ done
 
 - [Linux 系统目录结构](http://ssjt21.github.io/2017/11/Linux_DirStruct/)
 
-- [Linux 获取系统登陆用户密码的加密方式](http://ssjt21.github.io/2017/11/Linux_DirStruct/)
+- [Linux 获取系统登陆用户密码的加密方式](http://ssjt21.github.io/2017/11/Linux_Get_SYS_CryptMode/)
 
 
 <br>
