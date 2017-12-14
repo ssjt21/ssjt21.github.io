@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Linux Shell 三种读取文件内容的方式"
+title: "Linux Shell 四种读取文件内容的方式"
 date: 2017-12-13 11:13:06 
-description: "Linux Shell 三种读取文件内容的方式"
+description: "Linux Shell 四种读取文件内容的方式"
 tag: Shell
 ---
 
@@ -31,12 +31,11 @@ done
 
 ### 使用命令执行 反引号
 ```Shell
-#!/bin/bash
-filename="./test.txt"
-for line in `cat $filename`
-do
-    echo $line
-done
+#输出行
+awk '{print}' test.txt
+#输出 空格分隔行后的第一个和第二个
+
+awk 'print $1,$2' test.txt
 ```
 
 ### 注意
@@ -45,6 +44,17 @@ done
 - for 遇到空格即停止
 - while 则是按一整行来读取
 - 当你想处理的数据是行数据时，建议使用while
+
+### awk 最为强大的文本分析处理工具
+```Shell
+#!/bin/bash
+filename="./test.txt"
+for line in `cat $filename`
+do
+    echo $line
+done
+```
+
 
 
 

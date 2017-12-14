@@ -17,6 +17,7 @@ tag: Excel
 
 - [Excel VLOOKUP函数](http://ssjt21.github.io/2017/11/Excelvlookup/)
 
+- [Excel FIND IFERROR根据表格是否包含某一字符串显示另一列的值](http://ssjt21.github.io/2017/11/Excel_FIND_IFERROR/)
 
 
 <br>
