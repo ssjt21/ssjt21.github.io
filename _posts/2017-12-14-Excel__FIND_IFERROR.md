@@ -34,13 +34,13 @@ tag: Excel
 单元格B2的值： =IF(FIND("HTTP",A2),"httpd-2.4.29或则httpd-2.2.34","php-5.6.32 或者 php-7.2.0|")
 
 ```
-<img src="/images/posts/Excle/FIND.gif" height="200" width="800">
+<img src="/images/posts/Excle/FIND.gif" height="400" width="800">
 
 ```SHELL
 #使用公式：
 单元格B2的值： =IF(IFERROR(FIND("HTTP",A2),0),"httpd-2.4.29或则httpd-2.2.34","php-5.6.32 或者 php-7.2.0")
 ```
-<img src="/images/posts/Excle/IFERROR.gif" height="200" width="800">
+<img src="/images/posts/Excle/IFERROR.gif" height="400" width="800">
 
 
 参考连接：[FIND 和 FINDDB 微软文档](https://support.office.com/zh-cn/article/FIND、FINDB-函数-c7912941-af2a-4bdf-a553-d0d89b0a0628)
