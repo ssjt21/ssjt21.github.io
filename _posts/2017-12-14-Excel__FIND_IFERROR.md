@@ -42,6 +42,12 @@ tag: Excel
 ```
 <img src="/images/posts/Excle/IFERROR.gif" height="200" width="800">
 
+
+参考连接：[FIND 和 FINDDB 微软文档](https://support.office.com/zh-cn/article/FIND、FINDB-函数-c7912941-af2a-4bdf-a553-d0d89b0a0628)
+--------------------------------------------------------------
+
+推荐阅读
+
 - [Excel VLOOKUP函数](http://ssjt21.github.io/2017/11/Excel_vlookup/)
 - [Excel 根据表格内容修改格式](http://ssjt21.github.io/2017/11/Excel_ConditionFormat/)
 
