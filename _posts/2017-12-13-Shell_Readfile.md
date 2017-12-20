@@ -48,11 +48,7 @@ awk 'print $1,$2' test.txt
 ### awk 最为强大的文本分析处理工具
 ```Shell
 #!/bin/bash
-filename="./test.txt"
-for line in `cat $filename`
-do
-    echo $line
-done
+for line in `awk {}`
 ```
 
 
@@ -61,6 +57,8 @@ done
 
 
 推荐阅读：
+
+- [Linux SHELL OpenSSH 安装脚本](http://ssjt21.github.io/2017/12/Shell_OpenSSH_autoinstall/)
 
 - [Linux 系统目录结构](http://ssjt21.github.io/2017/11/Linux_DirStruct/)
 

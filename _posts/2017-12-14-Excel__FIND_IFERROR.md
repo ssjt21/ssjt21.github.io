@@ -43,7 +43,7 @@ tag: Excel
 <img src="/images/posts/Excle/IFERROR.gif" height="400" width="800">
 
 
-参考连接：[FIND 和 FINDDB 微软文档](https://support.office.com/zh-cn/article/FIND、FINDB-函数-c7912941-af2a-4bdf-a553-d0d89b0a0628)
+> 参考连接：[FIND 和 FINDDB 微软文档](https://support.office.com/zh-cn/article/FIND、FINDB-函数-c7912941-af2a-4bdf-a553-d0d89b0a0628)
 --------------------------------------------------------------
 
 推荐阅读
