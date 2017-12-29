@@ -113,7 +113,7 @@ int main()
 
 - [C 语言 练习题整理1](http://ssjt21.github.io/2017/11/C_Exercises1/)
 
-- [C 语言 插入排序](http://ssjt21.github.io/2017/11/C_InserSort/)
+- [C 语言 插入排序](http://ssjt21.github.io/2017/11/C_InsertSort/)
 
 
 <br>
