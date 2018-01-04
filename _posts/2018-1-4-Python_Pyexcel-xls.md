@@ -16,17 +16,19 @@ pyexcel-xls是一个比较小的xls操作模块，支持xls格式读取和写入
 - 详细的格式支持参考信息[pyexcel 官方](http://pythonhosted.org/pyexcel/)
 
 ### 安装
+
 ```PYTHON
 pip install pyexcel-xls
 pip install pyexcel-xlsx
 ```
 
 ### 优势
+
 - 读取的数据是个有序字典(OrderedDict)
 - 以sheet名作为字典的key
 - value是sheet表中数据,类型为列表(list),包含的数据也是list,并以行的形式存储
 
-###向 excel(.xls)文件写入数据
+### 向 excel(.xls)文件写入数据
 
 - save_data(filename,OrderedDict\_data) 数据写入文件
 - filename 是写入的文件名
