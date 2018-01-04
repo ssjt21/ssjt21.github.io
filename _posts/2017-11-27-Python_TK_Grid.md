@@ -55,6 +55,7 @@ root.mainloop()
 
 - [Python调用Hashcat跑主机密码文件](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
 
+- [Python pyexcel-xls使用对Excel进行读写操作](https://ssjt21.github.io/2018/1/Python_Pyexcel-xls/)
 
 
 <br>
