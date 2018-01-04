@@ -6,7 +6,7 @@ description: "Python pyexcel-xls使用,对excel的读写操作"
 tag: Python
 ---
 
-pyexcel-xls是一个比较小得xls操作模块，支持xls格式读取和写入操作，但是对于 xlsx和 xlsm格式只能进行读取不能进行写入操作。
+pyexcel-xls是一个比较小的xls操作模块，支持xls格式读取和写入操作，但是对于 xlsx和 xlsm格式只能进行读取不能进行写入操作。
 
 ### 限制性
 - 不支持 字体、颜色、图表的操作
@@ -21,15 +21,17 @@ pip install pyexcel-xls
 pip install pyexcel-xlsx
 ```
 
-###优势
+### 优势
 - 读取的数据是个有序字典(OrderedDict)
 - 以sheet名作为字典的key
 - value是sheet表中数据,类型为列表(list),包含的数据也是list,并以行的形式存储
 
 ###向 excel(.xls)文件写入数据
+
 - save_data(filename,OrderedDict\_data) 数据写入文件
 - filename 是写入的文件名
 - OrderedDict\_data是写入的数据,类型是有序字典(OrderedDict)
+
 ```python
 # -*- coding: utf-8 -*-
 from pyexcel_xls import save_data
@@ -50,6 +52,7 @@ if __name__=="__main__":
     write_xls_file()
 ```
 ### 读excel (.xls|.xlsx|.xlsm)文件的数据
+
 - get_data(filename),读取文件filename中的数据
 - 返回的结果是一个有序字典(OrderedDict)
 ```python
@@ -69,12 +72,14 @@ if __name__=="__main__":
 first_sheet [[u'ID', u'\u59d3\u540d', u'\u6210\u7ee9']]
 second_sheet [[1, u'\u5c0f\u660e', 88]]
 ```
+
 ### 除以上操作外，还支持对IO操作，比如文件的上传和下载
+
 - 文件的保存使用sava_data()
 - 文件的的读取使用get_data()
 - 操作的对象由文件名变成 StingIO()创建的对象
 
-###pyexcel.ext 插件使用 [数据读取]
+### pyexcel.ext 插件使用 [数据读取]
 
 ```Python
 # -*- coding: utf-8 -*-
