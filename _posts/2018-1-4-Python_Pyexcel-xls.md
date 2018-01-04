@@ -84,15 +84,17 @@ second_sheet [[1, u'\u5c0f\u660e', 88]]
 - 文件的的读取使用get_data()
 - 操作的对象由文件名变成 StingIO()创建的对象
 
-### pyexcel.ext 插件使用 [数据读取]
+### pyexcel.ext 插件使用 
 
 ```Python
 # -*- coding: utf-8 -*-
 import pyexcel as pe
 from pyexcel.ext import xls
-
+#读取数据
 sheet=pe.get_book(file_name="./test.xls")
 print sheet
+#写入数据
+sheet.save_as("test3.xls")
 #结果：
 first_sheet:
 +----+------+------+
