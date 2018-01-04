@@ -9,6 +9,7 @@ tag: Python
 pyexcel-xls是一个比较小的xls操作模块，支持xls格式读取和写入操作，但是对于 xlsx和 xlsm格式只能进行读取不能进行写入操作。
 
 ### 限制性
+
 - 不支持 字体、颜色、图表的操作
 - 只对 xls 格式有读写两种操作
 - 对xlsx和 xlsm只有读操作
@@ -53,10 +54,12 @@ def write_xls_file(filename="./test.xls"):
 if __name__=="__main__":
     write_xls_file()
 ```
+
 ### 读excel (.xls|.xlsx|.xlsm)文件的数据
 
 - get_data(filename),读取文件filename中的数据
 - 返回的结果是一个有序字典(OrderedDict)
+
 ```python
 # -*- coding: utf-8 -*-
 from collections import OrderedDict
