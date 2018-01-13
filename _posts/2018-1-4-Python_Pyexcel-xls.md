@@ -107,7 +107,9 @@ second_sheet:
 ```
 [pyexcel-xls 官方文档](http://pythonhosted.org/pyexcel-xls/)
 
+***
 
+> pyexcel-xlsx使用方法和pyexcel-xls一样
 
 
 推荐阅读：
@@ -119,7 +121,7 @@ second_sheet:
 
 - [Python调用Hashcat跑主机密码文件](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
 
-
+- [Python Nmap批量主机存活检测脚本](https://ssjt21.github.io/2018/1/Python_Nmap批量主机存活检测/)
 
 <br>
 
