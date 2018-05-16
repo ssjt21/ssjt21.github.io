@@ -38,7 +38,10 @@ def get_ip(filename="./IP.txt"):
         for ip in ips:
             I=I+1
             IP.add(ip.strip())
-    print "数据总数是：",I,len(IP),"没有重复数据"
+    if I==len(IP):
+        print "数据总数是：",I,len(IP),"没有重复数据"
+    else:
+        print "存在重复的数据：",I-len(IP)
     return IP
 
 IP_set=get_ip()
