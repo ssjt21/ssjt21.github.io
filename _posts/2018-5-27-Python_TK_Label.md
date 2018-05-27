@@ -6,13 +6,13 @@ description: "Python Tkinter Label使用例子"
 tag: Tkinter
 ---
 
-## Label 标签
+### Label 标签
 
-`To use a label, you just have to specify what to display in it (this can be text, a bitmap, or an image).Labels can display multiple lines of text.The label can only display text in a single font, but the text may span more than one line. In addition, one of the characters can be underlined, for example to mark a keyboard shortcut.`
+_To use a label, you just have to specify what to display in it (this can be text, a bitmap, or an image).Labels can display multiple lines of text.The label can only display text in a single font, but the text may span more than one line. In addition, one of the characters can be underlined, for example to mark a keyboard shortcut._
 
-label标签可以用来显示单行或多行的文本，字体类型只能是同一种，如果你想在一个Label标签内使用两种字体的话，是不被允许的，但是可以对字体加上下划线和快捷键（见事件）。除此之外Label控件还可以显示图片和位图。
+__label标签可以用来显示单行或多行的文本，字体类型只能是同一种，如果你想在一个Label标签内使用两种字体的话，是不被允许的，但是可以对字体加上下划线和快捷键（见事件）。除此之外Label控件还可以显示图片和位图。__
 
-## first demo
+### first demo
 
 ```python
 from Tkinter import *
@@ -25,7 +25,7 @@ master.mainloop()#进入消息循环
 
 <img src="/images/posts/Python/Tkinter/Label/label-1.jpg" >
 
-## 设置Label的宽和高 width | height
+### 设置Label的宽和高 width | height
 
 ```python
 from Tkinter import *
@@ -36,17 +36,17 @@ w.pack()#显示Label控件
 master.mainloop()#进入消息循环
 ```
 
-width和height单位说明：
+_width和height单位说明：_
 - 文本： 按照单一字体为单位
-- 图片|位图：按照像素为单位
+- 图片、位图：按照像素为单位
 
 <img src="/images/posts/Python/Tkinter/Label/label-2.jpg" >
 
-## 背景色（background|bg）、前景色(foreground|fg)、字体设置(font)
+### 背景色（background|bg）、前景色(foreground|fg)、字体设置(font)
 
 - 背景颜色设置：background="red" 或者 bg="red"
 - 前景颜色设置（字体颜色）：foreground="red" 或者 fg="red"
-- 字体设置： font=font=('Courier New',16,'bold italic'),指定字体为Courier New，字体的大小为16,字体样式bold italic 或者使用font='Courier\ New 16 bold italic'进行设置,其中的\是用来转义空格的
+- 字体设置： font=('Courier New',16,'bold italic'),指定字体为Courier New，字体的大小为16,字体样式bold italic 或者使用font='Courier\ New 16 bold italic'进行设置,其中的\是用来转义空格的
 
 ```PYTHON
 from Tkinter import *
@@ -58,14 +58,15 @@ master.mainloop()#进入消息循环
 
 <img src="/images/posts/Python/Tkinter/Label/label-3-font-bg-fg.jpg" >
 
-##  label文本位置设置 wraplenght、justify、anchor
+###  label文本位置设置 wraplenght、justify、anchor
 
 - wraplength：用于设置一行文本显示的多少(用于多行文本的设置)，这个计算跟字体的大小有关系，比如字体大小为16，当设置wraplength=64时，也就是每行显示64/16=4个字体
 
 通常情况下，用到wraplenth设置多行文本显示后也会设置多行文本的显示方式，就会用到anchor 和 justify两个属性：
 - justify:指定多行文本的对齐方式，可以时left、right、center，默认值为center(justify='center')
 
-说明： justify的值也可以是LEFT、RIGHT、CENTER，但是使用的时候，必须是justify=LEFT，这区别于上面的justify='left'方式，一个是加入引号一个不加。两种方式显示的效果是一样的，选择哪一个都是可以。
+__说明： justify的值也可以是LEFT、RIGHT、CENTER，但是使用的时候，必须是justify=LEFT，这区别于上面的justify='left'方式，一个是加入引号一个不加。两种方式显示的效果是一样的，选择哪一个都是可以。__
+
 ```python
 from Tkinter import *
 
@@ -77,7 +78,7 @@ master.mainloop()#进入消息循环
 <img src="/images/posts/Python/Tkinter/Label/label-4-wraplength-justify.jpg" >
 - anchor: 设置文本在Label上的位置，有以下值可选
 
-N(north)、S(south)、W(west),e(east)和NE,NW,SE,SW,CENTER，默认值是CENTER。当设置标签的长宽比较大的时候，可以明显的看出anchor对文本显示位置的设置。
+__N(north)、S(south)、W(west),e(east)和NE,NW,SE,SW,CENTER，默认值是CENTER。当设置标签的长宽比较大的时候，可以明显的看出anchor对文本显示位置的设置。__
 
 ```python
 from Tkinter import *
@@ -91,9 +92,9 @@ master.mainloop()#进入消息循环
 
 
 
-## 对Label标签绑定变量 StringVar()，textvariable
+### 对Label标签绑定变量 StringVar()，textvariable
 
-在Tkinter中，很多控件都可以支持变量的绑定，使用变量绑定的好处是后期可以根据需要获取和修改控件中值。
+_在Tkinter中，很多控件都可以支持变量的绑定，使用变量绑定的好处是后期可以根据需要获取和修改控件中值。_
 
 - 创建StringVar()变量：v=StringVar()
 - 跟控件进行绑定：设置控件属性textvariable为v，textvariable=v
@@ -112,13 +113,13 @@ master.mainloop()
 
 <img src="/images/posts/Python/Tkinter/Label/label-6-stringvar.jpg" >
 
-## Label 显示图片 image
+### Label 显示图片 image
 
-`You can use the label to display PhotoImage and BitmapImage objects. `
+_You can use the label to display PhotoImage and BitmapImage objects._
 
-详细的使用方式请参见教程PhotoImage和BitmapImage的使用。
+__详细的使用方式请参见教程PhotoImage和BitmapImage的使用__
 
-> 请确保已经安装PIL或者Pillow图片模块。下面使用的是PIL模块，PIL不支持Pyhton3.x，在Python3.x版本中你可以使用Pillow模块解决图片的显示问题。一定注意图片的格式问题，比如gif,JPEG等。
+__请确保已经安装PIL或者Pillow图片模块。下面使用的是PIL模块，PIL不支持Pyhton3.x，在Python3.x版本中你可以使用Pillow模块解决图片的显示问题。一定注意图片的格式问题，比如gif,JPEG等。__
 
 ```python
 from Tkinter import *
@@ -132,11 +133,11 @@ lab.pack()
 master.mainloop()
 ```
 
-注意： 一定不要更改导入PIL和Tkinter的顺序，否则会出错，如果你一定要更改导入顺序，请使用导入包名，然后通过（包名.方法()）的方式来用。
+__注意： 一定不要更改导入PIL和Tkinter的顺序，否则会出错，如果你一定要更改导入顺序，请使用导入包名，然后通过（包名.方法()）的方式来用。__
 
-> Note: When a PhotoImage object is garbage-collected by Python (e.g. when you return from a function which stored an image in a local variable), the image is cleared even if it’s being displayed by a Tkinter widget.
+- Note: When a PhotoImage object is garbage-collected by Python (e.g. when you return from a function which stored an image in a local variable), the image is cleared even if it’s being displayed by a Tkinter widget.
 
-> To avoid this, the program must keep an extra reference to the image object. A simple way to do this is to assign the image to a widget attribute, like this:
+- To avoid this, the program must keep an extra reference to the image object. A simple way to do this is to assign the image to a widget attribute, like this:
 
 -------
 ```python
@@ -144,10 +145,11 @@ master.mainloop()
     label.image = photo # keep a reference!
     label.pack()
 ```
+-----
 
 <img src="/images/posts/Python/Tkinter/Label/label-7-image.jpg" >
 
-## Label 内边距(padx|pady)设置
+### Label 内边距(padx|pady)设置
 
 - padx：设置水平方向上的内边距，默认值为1像素
 - pady：设置垂直方向上的内边距，默认值为1像素
@@ -160,12 +162,13 @@ lab_pad.pack()
 master.mainloop()
 ```
 
-其中underline设置文本下划线，默认值为-1标识没有.如果设置了值为1，标识对text中的字符的第二个加入下划线。
+__其中underline设置文本下划线，默认值为-1标识没有.如果设置了值为1，标识对text中的字符的第二个加入下划线。__
+
 <img src="/images/posts/Python/Tkinter/Label/label-8-pad.jpg" >
 
-## Laber边框样式设置 (borderwidth,relief)
+### Laber边框样式设置 (borderwidth,relief)
 
-- borderwidth|bg:边框大小设置，默认值跟系统有关，一般是1px或者2px，使用bg=1或者boderwidth=1来设置
+- borderwidth/bg:边框大小设置，默认值跟系统有关，一般是1px或者2px，使用bg=1或者boderwidth=1来设置
 - relief：设置边框的显示样式，默认值为FLAT,其他值有SUNKEN, RAISED, GROOVE, and RIDGE. 
 
 ```python
@@ -185,7 +188,7 @@ master.mainloop()
 
 <img src="/images/posts/Python/Tkinter/Label/label-9-relief.jpg" >
 
-## 图片和文本同时显示的方式compound
+### 图片和文本同时显示的方式compound
 
 - 默认值为None,当存在图片时，图片覆盖文本
 - CENTER:text显示在image上
@@ -207,8 +210,9 @@ master.mainloop()
 
 ### 除以上外观还有其他不太常用的属性设置：
 
+
 |属性|值|说明|
-|-|:-|:-|
+| - | :- | :- |
 |activebackground|颜色值|设置激活状态下的背景色|
 |activeforeground|颜色值|设置激活状态下的前景色|
 |cursor|见文章底部|设置光标移动到label上的样式|
@@ -217,6 +221,9 @@ master.mainloop()
 |highlightbackground|颜色值|设置label没有焦点时的边框的颜色|
 |highlightcolor|颜色值|设置label获取焦点时的边框颜色|
 |highlightthickness|默认值为0，数字|设置高亮显示边框的宽度|
+
+
+### cursor光标的值：
 ```PYTHON
 arrow 箭头
  
@@ -374,9 +381,9 @@ X_cursor X型指针
 
 
 
-## Label 事件绑定 (bind)
+### Label 事件绑定 (bind)
 
-在Tkinter中几乎所有的控件都有事件(event)，一定要牢记lable是没有像Butto那样的command属性，因此label只能通过bind方法来绑定事件。详细的事件操作见bind事件绑定教程。
+__在Tkinter中几乎所有的控件都有事件(event)，一定要牢记lable是没有像Butto那样的command属性，因此label只能通过bind方法来绑定事件。详细的事件操作见bind事件绑定教程。__
 
 - <Button-1> 表示鼠标左键
 - <Button-3> 表示鼠标右键
