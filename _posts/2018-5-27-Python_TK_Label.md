@@ -9,9 +9,11 @@ tag: Tkinter
 ## Label 标签
 
 `To use a label, you just have to specify what to display in it (this can be text, a bitmap, or an image).Labels can display multiple lines of text.The label can only display text in a single font, but the text may span more than one line. In addition, one of the characters can be underlined, for example to mark a keyboard shortcut.`
+
 label标签可以用来显示单行或多行的文本，字体类型只能是同一种，如果你想在一个Label标签内使用两种字体的话，是不被允许的，但是可以对字体加上下划线和快捷键（见事件）。除此之外Label控件还可以显示图片和位图。
 
 ## first demo
+
 ```python
 from Tkinter import *
 master=Tk()# 实例化Tk()，创建顶级窗口
@@ -20,9 +22,11 @@ w=Label(master,text="Hello,world!")
 w.pack()#显示Label控件
 master.mainloop()#进入消息循环
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-1.jpg" >
 
 ## 设置Label的宽和高 width | height
+
 ```python
 from Tkinter import *
 master=Tk()# 实例化Tk()，创建顶级窗口
@@ -31,15 +35,19 @@ w=Label(master,text="Hello,world!",width=20,height=5)
 w.pack()#显示Label控件
 master.mainloop()#进入消息循环
 ```
+
 width和height单位说明：
 - 文本： 按照单一字体为单位
 - 图片|位图：按照像素为单位
+
 <img src="/images/posts/Python/Tkinter/Label/label-2.jpg" >
 
 ## 背景色（background|bg）、前景色(foreground|fg)、字体设置(font)
+
 - 背景颜色设置：background="red" 或者 bg="red"
 - 前景颜色设置（字体颜色）：foreground="red" 或者 fg="red"
 - 字体设置： font=font=('Courier New',16,'bold italic'),指定字体为Courier New，字体的大小为16,字体样式bold italic 或者使用font='Courier\ New 16 bold italic'进行设置,其中的\是用来转义空格的
+
 ```PYTHON
 from Tkinter import *
 master=Tk()# 实例化Tk()，创建顶级窗口
@@ -47,6 +55,7 @@ w=Label(master,text="Hello,world!",width=20,height=5,bg='black',fg='white',font=
 w.pack()#显示Label控件
 master.mainloop()#进入消息循环
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-3-font-bg-fg.jpg" >
 
 ##  label文本位置设置 wraplenght、justify、anchor
@@ -69,6 +78,7 @@ master.mainloop()#进入消息循环
 - anchor: 设置文本在Label上的位置，有以下值可选
 
 N(north)、S(south)、W(west),e(east)和NE,NW,SE,SW,CENTER，默认值是CENTER。当设置标签的长宽比较大的时候，可以明显的看出anchor对文本显示位置的设置。
+
 ```python
 from Tkinter import *
 master=Tk()# 实例化Tk()，创建顶级窗口
@@ -76,6 +86,7 @@ w=Label(master,text="Helpo,world!",width=40,height=6,bg='black',fg='white',font=
 w.pack()#显示Label控件
 master.mainloop()#进入消息循环
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-5-anchor.jpg" >
 
 
@@ -88,6 +99,7 @@ master.mainloop()#进入消息循环
 - 跟控件进行绑定：设置控件属性textvariable为v，textvariable=v
 - 获取控件中绑定变量中的值：v.get()
 - 设置控件中绑定变量中的值：v.set("hello")
+
 ```python
 master=Tk()
 v=StringVar()
@@ -97,6 +109,7 @@ v.set('Hello,lqy')#设置控件中显示的值
 print(v.get())#在控制台输出获取的值
 master.mainloop()
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-6-stringvar.jpg" >
 
 ## Label 显示图片 image
@@ -118,23 +131,27 @@ lab.image=photo#防止局部变量被销毁，进行持久化保存图片对象-
 lab.pack()
 master.mainloop()
 ```
+
 注意： 一定不要更改导入PIL和Tkinter的顺序，否则会出错，如果你一定要更改导入顺序，请使用导入包名，然后通过（包名.方法()）的方式来用。
 
 > Note: When a PhotoImage object is garbage-collected by Python (e.g. when you return from a function which stored an image in a local variable), the image is cleared even if it’s being displayed by a Tkinter widget.
 
 > To avoid this, the program must keep an extra reference to the image object. A simple way to do this is to assign the image to a widget attribute, like this:
 
+-------
 ```python
     label = Label(image=photo)
     label.image = photo # keep a reference!
     label.pack()
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-7-image.jpg" >
 
 ## Label 内边距(padx|pady)设置
 
 - padx：设置水平方向上的内边距，默认值为1像素
 - pady：设置垂直方向上的内边距，默认值为1像素
+
 ```python
 from Tkinter import  *
 master =Tk()
@@ -142,12 +159,15 @@ lab_pad=Label(master,bg='green',text='padx,pady设置',underline=2,padx=40,pady=
 lab_pad.pack()
 master.mainloop()
 ```
+
 其中underline设置文本下划线，默认值为-1标识没有.如果设置了值为1，标识对text中的字符的第二个加入下划线。
 <img src="/images/posts/Python/Tkinter/Label/label-8-pad.jpg" >
 
 ## Laber边框样式设置 (borderwidth,relief)
+
 - borderwidth|bg:边框大小设置，默认值跟系统有关，一般是1px或者2px，使用bg=1或者boderwidth=1来设置
 - relief：设置边框的显示样式，默认值为FLAT,其他值有SUNKEN, RAISED, GROOVE, and RIDGE. 
+
 ```python
 from Tkinter import  *
 master =Tk()
@@ -166,9 +186,11 @@ master.mainloop()
 <img src="/images/posts/Python/Tkinter/Label/label-9-relief.jpg" >
 
 ## 图片和文本同时显示的方式compound
+
 - 默认值为None,当存在图片时，图片覆盖文本
 - CENTER:text显示在image上
 - BOTTOM、LEFT,RIGHT、TOP:分别将文本显示在图片的下、左、右、上
+
 ```python
 from Tkinter import *
 from PIL import Image,ImageTk
@@ -180,9 +202,11 @@ lab.image=photo#防止局部变量被销毁，进行持久化保存图片对象
 lab.pack()
 master.mainloop()
 ```
+
 <img src="/images/posts/Python/Tkinter/Label/label-10-compound.jpg" >
 
 ### 除以上外观还有其他不太常用的属性设置：
+
 |属性|值|说明|
 |-|:-|:-|
 |activebackground|颜色值|设置激活状态下的背景色|
@@ -357,6 +381,7 @@ X_cursor X型指针
 - <Button-1> 表示鼠标左键
 - <Button-3> 表示鼠标右键
 - <Buttom-2> 表示鼠标中键
+
 ```python
 from Tkinter import *
 sign=False
@@ -396,4 +421,4 @@ master.mainloop()
 
 <br>
 
-转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](https://ssjt21.github.io/2017/11/Python_TK_Grid/)
+转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](https://ssjt21.github.io/2018/5/Python_TK_Label/)
