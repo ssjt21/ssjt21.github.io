@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: "Tkinter Label使用"
+title: "Tkinter Label使用-5"
 date: 2018-5-27 10:13:06 
 description: "Python Tkinter Label使用例子"
 tag: Tkinter
@@ -385,9 +385,9 @@ X_cursor X型指针
 
 __在Tkinter中几乎所有的控件都有事件(event)，一定要牢记lable是没有像Butto那样的command属性，因此label只能通过bind方法来绑定事件。详细的事件操作见bind事件绑定教程。__
 
-- <Button-1> 表示鼠标左键
-- <Button-3> 表示鼠标右键
-- <Buttom-2> 表示鼠标中键
+- \<Button-1\> 表示鼠标左键
+- \<Button-3\> 表示鼠标右键
+- \<Buttom-2\> 表示鼠标中键
 
 ```python
 from Tkinter import *
@@ -428,4 +428,4 @@ master.mainloop()
 
 <br>
 
-转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](https://ssjt21.github.io/2018/5/Python_TK_Label/)
+转载请注明：[随时静听的博客](http://ssjt21.github.io) » [点击阅读原文](https://ssjt21.github.io/2018/05/Python_TK_Label/)
