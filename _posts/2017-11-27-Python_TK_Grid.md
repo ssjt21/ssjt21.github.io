@@ -53,11 +53,13 @@ root.mainloop()
 
 - [Tkinter Label控件使用-5](https://ssjt21.github.io/2018/05/Python_TK_Label/)
 
+- [Tkinter Entry输入框控件-6](https://ssjt21.github.io/2018/05/Python_TK_Entry/)
+
 - [Python PIL Image类使用](http://ssjt21.github.io/2017/11/Python_PIL_Image_Module/)
 
 - [Python调用Hashcat跑主机密码文件](http://ssjt21.github.io/2017/11/Python_Hashcatshell/)
 
-- [Python pyexcel-xls使用对Excel进行读写操作](https://ssjt21.github.io/2018/1/Python_Pyexcel-xls/)
+- [Python pyexcel-xls使用对Excel进行读写操作](https://ssjt21.github.io/2018/01/Python_Pyexcel-xls/)
 
 
 <br>
